@@ -55,9 +55,9 @@ Technologies Used
 - audio <audio> 
 - video <video> 
 - header <header> 
-- footer <footer></footer> 
-- summary <summary></summary> 
-- menu <menu></menu>
+- footer <footer>
+- summary <summary>
+- menu <menu>
 - tel for contact information
 - mailto for contact information
 
