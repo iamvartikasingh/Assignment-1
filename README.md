@@ -48,16 +48,16 @@ Technologies Used
 - The mentioned tags for Assignemnt 1 of Web Design and User Experience class have been added.
 - Favicon
 - <tr><th> Table
-- <form >Form
-- <img> Images
-- <href> Hyperlink
+- <form></form> Form
+- <img>Images
+- <a href> Hyperlink
 - <button> Button
 - <audio> audio
 - <video> video
 - <header> header
-- <footer></footer>
-- <summary></summary>
-- <menu></menu>
+- <footer></footer> footer
+- <summary></summary> summary
+- <menu></menu> menu
 - tel for contact information
 - mailto for contact information
 
