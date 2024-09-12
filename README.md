@@ -47,17 +47,17 @@ Technologies Used
 - HTML5: Markup for creating the website structure.
 - The mentioned tags for Assignemnt 1 of Web Design and User Experience class have been added.
 - Favicon
-- Table
-- Form
-- Images
-- Hyperlink
-- Button
-- audio
-- video
-- header
-- footer
-- summary
-- menu
+- <tr><th> Table
+- <form >Form
+- <img> Images
+- <href> Hyperlink
+- <button> Button
+- <audio> audio
+- <video> video
+- <header> header
+- <footer></footer>
+- <summary></summary>
+- <menu></menu>
 - tel for contact information
 - mailto for contact information
 
