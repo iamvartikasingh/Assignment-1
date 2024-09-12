@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Concert+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Contact Us</title>
+  
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">PetAdopt</a>
+                </div>
+               
+                    <menu>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pets.html">Available Pets</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                    
+                        </ul>
+                    </menu>
+                 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST"  onsubmit="return showAlert()">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="pet-interest">Which Pet Are You Interested In?</label>
+                    <select id="pet-interest" name="pet-interest" required>
+                        <option value="" disabled selected>Select a Pet</option>
+                        <option value="bella">Bella - Labrador Retriever</option>
+                        <option value="max">Max - German Shepherd</option>
+                        <option value="luna">Luna - Golden Retriever</option>
+                        <option value="charlie">Charlie - Bulldog</option>
+                        <option value="charlie">Poppy - Exotic Shorthair Cat</option>
+                        <option value="charlie">Brita - Ragdoll</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="text" id="other-pet" name="other-pet" class="other-pet-input" placeholder="Please specify the pet">
+                </div>
+                <div class="form-group">
+                    <label for="message">A little about yourself..</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+         <!-- Details and Summary -->
+         <details class="summary">
+            <summary>Need Help Filling the Form?</summary>
+            <p>Make sure to provide accurate information, especially your email and phone number, so we can contact you regarding your inquiry. If you're interested in a specific pet not listed, select "Other" and provide the details in the text box.</p>
+        </details>
+            <footer class="footer">
+                <p>&copy; 2024 Pet Adoption. All Rights Reserved.</p>
+                <p>Contact us: info@petadopt.com | (123) 456-7890</p>
+            </footer>
+        
+        </div>
+
+        <script>
+              function showAlert() {
+            alert('Thank you for contacting us! Your form has been submitted.');
+           return false;
+        }
+            document.addEventListener('DOMContentLoaded', () => {
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.nav-links');
+    
+                hamburger.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+</body>
+</html>

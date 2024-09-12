@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFinder</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Concert+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">PetAdopt</a>
+                </div>
+               
+                    <menu>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pets.html">Available Pets</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                    
+                        </ul>
+                    </menu>
+                 
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <h2 style="text-align:center;">Available Pets for Adoption</h2>
+<div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Breed</th>
+                    <th>Age</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/lab1.jpg" alt="Bella"></td>
+                    <td>Bella</td>
+                    <td>Labrador Retriever</td>
+                    <td>3 years</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td><img src="images/shep.jpg" alt="Max"></td>
+                    <td>Max</td>
+                    <td>German Shepherd</td>
+                    <td>2 years</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td><img src="images/gold.jpg" alt="Luna"></td>
+                    <td>Luna</td>
+                    <td>Golden Retriever</td>
+                    <td>1 year</td>
+                    <td>Adopted</td>
+                </tr>
+                <tr>
+                    <td><img src="images/bull.jpg" alt="Charlie"></td>
+                    <td>Charlie</td>
+                    <td>Bulldog</td>
+                    <td>4 years</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td><img src="images/cat1.jpg" style="height: 120px;" alt="Sumo"></td>
+                    <td>Poppy</td>
+                    <td>Exotic Shorthair Cat</td>
+                    <td>2 years</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td><img src="images/rag.jpg" alt="Stanley"></td>
+                    <td>Brita</td>
+                    <td>Ragdoll</td>
+                    <td>1 year</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        
+        
+            <footer class="footer">
+                <p>&copy; 2024 Pet Adoption. All Rights Reserved.</p>
+                <p>Contact us: info@petadopt.com | (123) 456-7890</p>
+            </footer>
+           
+        
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const hamburger = document.querySelector('.hamburger');
+                const navLinks = document.querySelector('.nav-links');
+    
+                hamburger.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+  
+
+</body>
+</html>
