@@ -56,7 +56,7 @@ Technologies Used
 - video <video> 
 - header <header> 
 - footer <footer>
-- summary <summary>
+- summary<summary>
 - menu <menu>
 - tel for contact information
 - mailto for contact information
